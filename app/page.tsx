@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { ArrowUpRight, Check, ChevronDown, Instagram, Linkedin, Menu, Mic2, MoveRight, Play, Sparkles, Users, X, Youtube } from 'lucide-react'
+import { ArrowUpRight, Check, ChevronDown, Globe2, Menu, MessageCircle, Mic2, MoveRight, Sparkles, Users, X } from 'lucide-react'
 
 const logo = 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-withe-gonbUAVmX8WtMaXi5354P97gGGsGw0.png'
 
@@ -76,7 +76,7 @@ export default function Page() {
 
       <section id="join" className="final-cta section-pad"><div className="cta-shape shape-one" /><div className="cta-shape shape-two" /><div className="section-kicker">05 / YOUR TURN</div><h2>Your English<br />journey <em>starts here.</em></h2><p>Join a community that helps you speak with confidence and grow together.</p><a className="button button-light" href="mailto:nova.englishclub@univ-ghardaia.dz">Join NOVA — It&apos;s FREE! <ArrowUpRight size={19} /></a></section>
 
-      <footer id="contact" className="footer"><div className="footer-top"><img src={logo} alt="NOVA English Club" /><p>Scientific, cultural &amp; educational club<br />University of Ghardaïa</p><div className="socials"><a href="#contact" aria-label="Instagram"><Instagram size={19} /></a><a href="#contact" aria-label="LinkedIn"><Linkedin size={19} /></a><a href="#contact" aria-label="YouTube"><Youtube size={19} /></a></div></div><div className="footer-bottom"><span>© 2024 NOVA English Club</span><span>Made with curiosity in Ghardaïa, Algeria</span><a href="#home">Back to top ↑</a></div></footer>
+      <footer id="contact" className="footer"><div className="footer-top"><img src={logo} alt="NOVA English Club" /><p>Scientific, cultural &amp; educational club<br />University of Ghardaïa</p><div className="socials"><a href="#contact" aria-label="Instagram"><Globe2 size={19} /></a><a href="#contact" aria-label="LinkedIn"><MessageCircle size={19} /></a><a href="#contact" aria-label="YouTube"><Globe2 size={19} /></a></div></div><div className="footer-bottom"><span>© 2024 NOVA English Club</span><span>Made with curiosity in Ghardaïa, Algeria</span><a href="#home">Back to top ↑</a></div></footer>
     </main>
   )
 }
