@@ -419,3 +419,8 @@ footer div a {
     width: 100%;
   }
 }
+@theme {
+  --color-nova-blue: #263f99;
+  --color-nova-red: #d71f3b;
+  --color-nova-ice: #edf8fb;
+}
